@@ -13,7 +13,7 @@ class App extends React.Component {
         };
     }
 
-    // state management
+    // state management based on input
     handleInputChange = (e) => {
       this.setState({ input: e.target.value });
     };
